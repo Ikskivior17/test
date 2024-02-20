@@ -1,0 +1,28 @@
+CRITICAL - 2024-02-19 00:29:57 --> Invalid file: layout/head.php
+#0 C:\xampp\htdocs\josperpus\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/head.php')
+#1 C:\xampp\htdocs\josperpus\system\Common.php(1089): CodeIgniter\View\View->render('layout/head', Array, true)
+#2 C:\xampp\htdocs\josperpus\app\Views\login.php(1): view('layout/head')
+#3 C:\xampp\htdocs\josperpus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\josperpus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\josperpus\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#6 C:\xampp\htdocs\josperpus\app\Controllers\Home.php(35): view('login')
+#7 C:\xampp\htdocs\josperpus\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\josperpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\josperpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\josperpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\josperpus\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-02-19 00:29:58 --> Invalid file: layout/head.php
+#0 C:\xampp\htdocs\josperpus\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/head.php')
+#1 C:\xampp\htdocs\josperpus\system\Common.php(1089): CodeIgniter\View\View->render('layout/head', Array, true)
+#2 C:\xampp\htdocs\josperpus\app\Views\login.php(1): view('layout/head')
+#3 C:\xampp\htdocs\josperpus\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\josperpus\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\josperpus\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#6 C:\xampp\htdocs\josperpus\app\Controllers\Home.php(35): view('login')
+#7 C:\xampp\htdocs\josperpus\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\josperpus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\josperpus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\josperpus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\josperpus\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
